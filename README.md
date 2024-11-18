@@ -8,14 +8,14 @@
 ## 任务3<br>
   在pytorch_1.py中实现了lenet、vgg、resnet的模型并进行了mnist图像分类，在每个模型的实现过程中都减少了模型的复杂度以缩短训练时间。最终三个模型都在0.001的学习率、迭代次数为10次的情况下在测试集上达到97%以上的准确率，其中vgg模型的准确率相对偏高，可达98%，但训练时间与lenet和renet比相对较长。<br>
   在transformers_1.py中构建了一个极小的vision transformer网络，参数如下：<br>
-    image_size = 28
-    patch_size = 14
-    in_channels = 1
-    embedding_dim = 64
-    feedforward_dim = 128
-    num_heads = 4
-    lr = 1e-3
-    epchos = 10
+    image_size = 28<br>
+    patch_size = 14<br>
+    in_channels = 1<br>
+    embedding_dim = 64<br>
+    feedforward_dim = 128<br>
+    num_heads = 4<br>
+    lr = 1e-3<br>
+    epchos = 10<br>
   利用交叉熵损失函数和Adam优化器进行训练，经过训练后在mnist测试集上的准确度可达97.45%<br>
   模型的参数还可以进一步调整以提高学习率，包括采用不同的优化器，提高迭代次数，以及学习率的调整等<br>
 ## 任务4<br>
