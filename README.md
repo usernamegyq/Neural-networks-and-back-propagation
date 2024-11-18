@@ -1,3 +1,3 @@
 # Neural-networks-and-back-propagation
-实现BP神经网络
-实现
+##任务1<br>
+BP_numpy_1
